@@ -1,0 +1,65 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+h1  {
+    text-align:center;
+    margin-top:10px;
+}
+
+p {
+   font-size:18px;
+   line-height: 140%;
+}
+
+h3 {
+    margin-top:15px;
+}
+
+.personal-details {
+    float:left; 
+    width:60%;
+}
+
+.address{   
+ float: right;
+ width:40%;
+ 
+}
+
+.container {
+    margin: 0 80px;
+}
+
+.row:before,
+.row:after {
+    content:"";
+    display:table;
+}
+.row:after {
+    clear:both;
+}
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.details {
+	width: 49.2%;
+}
+
+.personal {
+    padding-right:30px;
+}
+
+
+
+.career-objective {
+    margin-top:30px;
+}
+
